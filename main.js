@@ -188,21 +188,21 @@ function initProjectModals() {
             ],
             image: 'resources/project-carocart.jpg'
         },
-        wings4destiny: {
-            title: 'Wings4Destiny - Study Abroad Consultation',
+        happyschooldashboard: {
+            title: 'Happy School - Teacher Dashboard',
             category: 'Web Platform',
-            client: 'Education',
-            description: 'A comprehensive platform that helps Indian students navigate the complex process of studying abroad, from university selection to visa assistance.',
-            challenge: 'Students face overwhelming complexity when applying to foreign universities, with limited access to reliable guidance and support.',
-            solution: 'Built an all-in-one platform with university search, application tracking, document management, and expert consultation services.',
-            technologies: ['Next.js', 'Strapi', 'PostgreSQL', 'Stripe', 'Video Calling API'],
+            client: 'EdTech',
+            description: 'A comprehensive web dashboard platform that empowers teachers to manage classrooms, track student progress, facilitate parent communication, and create engaging learning experiences through social features and analytics.',
+            challenge: 'Teachers need centralized tools to manage multiple classes, monitor student engagement, communicate with parents, share resources, and track academic progress across various subjects and grade levels efficiently.',
+            solution: 'Developed a feature-rich web dashboard with class management, grade tracking, attendance monitoring, assignment creation, parent messaging portal, student progress analytics, and social feed for classroom updates and achievements.',
+            technologies: ['Vue.js', 'Laravel', 'MySQL', 'WebSocket', 'Pusher', 'Chart.js'],
             results: [
-                '2,000+ successful student placements',
-                '95% visa approval rate',
-                'Partnerships with 200+ universities',
-                'Average 4.7/5 student satisfaction rating'
+                '500+ teachers actively using the platform',
+                '30% improvement in student engagement tracking',
+                '85% parent satisfaction with communication features',
+                'Used across 25 schools with 10,000+ students'
             ],
-            image: 'resources/project-wings4destiny.jpg'
+            image: 'resources/project-happyschool.jpg'
         },
         gohighlevel: {
             title: 'GoHighLevel SaaS - Business Automation',
