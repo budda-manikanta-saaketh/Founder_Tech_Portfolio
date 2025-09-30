@@ -115,9 +115,9 @@ function initProjectModals() {
             description: 'A revolutionary shared-economy platform that connects construction equipment owners with contractors who need temporary access to machinery. The platform eliminates the need for inventory management while providing a seamless rental experience.',
             challenge: 'Traditional equipment rental involves complex logistics, high costs, and limited availability. Contractors often face delays due to equipment unavailability, while equipment owners struggle with utilization rates.',
             solution: 'Developed a peer-to-peer rental platform with real-time availability, GPS tracking, secure payments, and comprehensive insurance coverage. The app includes equipment verification, user ratings, and automated billing.',
-            technologies: ['React Native', 'Node.js', 'MongoDB', 'AWS', 'Stripe API', 'Google Maps API'],
+            technologies: ['Flutter', 'Firebase','RazorPay API', 'Google Maps API','FCM'],
             results: [
-                '200+ equipment listings within 3 months of launch',
+                '100+ equipment listings within 3 months of launch',
                 '85% utilization rate improvement for equipment owners',
                 '60% cost reduction for contractors',
                 '4.8/5 user satisfaction rating'
@@ -131,44 +131,26 @@ function initProjectModals() {
             description: 'A specialized food delivery platform designed exclusively for college campuses, connecting students with campus canteens and nearby restaurants for quick, reliable delivery.',
             challenge: 'College students need fast, affordable food options with delivery to dorms and campus locations. Traditional delivery apps often don\'t serve campus areas effectively.',
             solution: 'Created a campus-focused delivery app with student-friendly pricing, campus navigation, group ordering features, and integration with campus meal plans.',
-            technologies: ['Flutter', 'Firebase', 'Stripe', 'Google Maps API', 'Push Notifications'],
+            technologies: ['Flutter','Firebase', 'RazorPay API', 'Google Maps API','GCP'],
             results: [
-                '5,000+ active users within first semester',
                 'Average delivery time: 18 minutes',
                 '25% lower delivery fees than competitors',
-                'Available across 12 college campuses'
             ],
             image: 'resources/project-bitebox.jpg'
         },
-        pitchbox: {
-            title: 'PitchBox - Sports Field Booking',
-            category: 'Mobile App',
-            client: 'Startup',
-            description: 'A comprehensive booking platform that connects sports field owners with players and teams, providing real-time availability and seamless reservation management.',
-            challenge: 'Field owners struggle with manual booking management, while players find it difficult to discover and book available fields for their games.',
-            solution: 'Built a dual-sided platform with automated booking systems, real-time availability updates, payment processing, and field management tools for owners.',
-            technologies: ['React Native', 'GraphQL', 'AWS', 'Stripe', 'Calendar API'],
-            results: [
-                '150+ sports facilities onboarded',
-                '90% booking completion rate',
-                '50% reduction in booking management time',
-                'Available in 8 major cities'
-            ],
-            image: 'resources/project-pitchbox.jpg'
-        },
         happyschool: {
-            title: 'Happy School - Classroom Management',
+            title: 'Happy School',
             category: 'Mobile App',
             client: 'EdTech',
             description: 'An innovative platform that helps teachers improve classroom management through social features, communication tools, and engagement tracking.',
             challenge: 'Teachers need better tools for classroom communication, student engagement, and parent-teacher interaction in the digital age.',
             solution: 'Developed a comprehensive platform with social feeds, messaging, progress tracking, and interactive classroom management features.',
-            technologies: ['Vue.js', 'Laravel', 'MySQL', 'WebSocket', 'Pusher'],
+            technologies: ['Flutter','Node JS','Firebase','GCP'],
             results: [
                 '500+ teachers actively using the platform',
                 '30% improvement in student engagement',
                 '85% parent satisfaction with communication features',
-                'Used across 25 schools'
+                'Used across 15 schools'
             ],
             image: 'resources/project-happyschool.jpg'
         },
@@ -179,12 +161,10 @@ function initProjectModals() {
             description: 'A specialized hyperlocal delivery service designed for military personnel and families, providing secure delivery of groceries, food, medicines, and essential documents.',
             challenge: 'Military communities need secure, reliable delivery services that understand their unique requirements and security concerns.',
             solution: 'Created a secure delivery platform with military-grade security features, verified delivery personnel, and specialized handling for sensitive items.',
-            technologies: ['Flutter', 'Node.js', 'Redis', 'JWT Authentication', 'AES Encryption'],
+            technologies: ['Flutter', 'Node Js', 'Spring Boot', 'JWT Authentication', 'Firebase', 'Google Maps API','RazorPay API'],
             results: [
-                'Serves 15 military bases',
                 '99.5% delivery success rate',
                 'Average delivery time: 25 minutes',
-                'Security clearance for all delivery personnel'
             ],
             image: 'resources/project-carocart.jpg'
         },
@@ -195,12 +175,11 @@ function initProjectModals() {
             description: 'A comprehensive web dashboard platform that empowers teachers to manage classrooms, track student progress, facilitate parent communication, and create engaging learning experiences through social features and analytics.',
             challenge: 'Teachers need centralized tools to manage multiple classes, monitor student engagement, communicate with parents, share resources, and track academic progress across various subjects and grade levels efficiently.',
             solution: 'Developed a feature-rich web dashboard with class management, grade tracking, attendance monitoring, assignment creation, parent messaging portal, student progress analytics, and social feed for classroom updates and achievements.',
-            technologies: ['Vue.js', 'Laravel', 'MySQL', 'WebSocket', 'Pusher', 'Chart.js'],
+            technologies: ['Flutter','Node JS','Firebase','GCP'],
             results: [
                 '500+ teachers actively using the platform',
-                '30% improvement in student engagement tracking',
-                '85% parent satisfaction with communication features',
-                'Used across 25 schools with 10,000+ students'
+                '30% improvement in teacher engagement tracking',
+                '85% teacher satisfaction with communication features',
             ],
             image: 'resources/project-happyschool.jpg'
         },
@@ -211,11 +190,10 @@ function initProjectModals() {
             description: 'A comprehensive business automation platform featuring CRM, WhatsApp bots, AI lead qualification, social media management, and SEO-friendly website builders.',
             challenge: 'Startups need affordable, integrated business automation tools that can scale with their growth without requiring multiple subscriptions.',
             solution: 'Developed an all-in-one SaaS platform that combines multiple business automation tools into a single, cohesive solution.',
-            technologies: ['React', 'Python', 'TensorFlow', 'PostgreSQL', 'Redis', 'Docker'],
+            technologies: [],
             results: [
                 '300+ active startup users',
                 '40% reduction in operational costs for users',
-                '10,000+ automated conversations daily',
                 '50+ integrated tools and services'
             ],
             image: 'resources/project-gohighlevel.jpg'
@@ -227,11 +205,9 @@ function initProjectModals() {
             description: 'An online marketplace that empowers tribal communities and cooperative societies to sell their traditional products to a global audience.',
             challenge: 'Tribal artisans and cooperative societies lack access to modern e-commerce platforms and digital marketing tools to reach broader markets.',
             solution: 'Created a culturally-sensitive e-commerce platform with easy onboarding, cultural storytelling features, and fair trade practices.',
-            technologies: ['Magento', 'PHP', 'Elasticsearch', 'Stripe', 'AWS'],
+            technologies: ['Flutter', 'Node Js', 'Spring Boot', 'JWT Authentication', 'Firebase', 'Google Maps API','RazorPay API'],
             results: [
-                '500+ tribal artisans onboarded',
                 '200% increase in artisan income',
-                'Products shipped to 25 countries',
                 '98% on-time delivery rate'
             ],
             image: 'resources/project-gcc.jpg'
